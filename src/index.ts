@@ -22,7 +22,8 @@ app.get('/', (req, res) => {
     res.json({
         message: "Welcome to Mock Pro League API",
         author: "Muhammed Saifudeen Salaudeen",
-        status: OK
+        status: OK,
+        status_message: "API Up"
     });
 });
 

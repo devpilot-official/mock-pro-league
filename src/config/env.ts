@@ -4,7 +4,6 @@ dotenv.config();
 
 const env = {
     app_name: process.env.APP_NAME || 'Mock-League-API',
-    app_url: process.env.APP_URL,
     port: Number(process.env.PORT),
     redis_url: process.env.REDIS_URL,
     mongodb_url: String(process.env.MONGODB_URL),
